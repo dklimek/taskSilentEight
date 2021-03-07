@@ -2,6 +2,8 @@ package com.klimek.demo.restApi.services;
 
 import com.klimek.demo.restApi.dto.GenderDTO;
 import com.klimek.demo.restApi.dto.TokenDTO;
+import com.klimek.demo.restApi.exception.TokenNotfoundException;
+import com.klimek.demo.restApi.exception.VariantBadRequestException;
 import com.klimek.demo.restApi.repositories.TokenRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
