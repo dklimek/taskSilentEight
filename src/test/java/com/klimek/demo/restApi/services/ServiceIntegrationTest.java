@@ -1,10 +1,16 @@
 package com.klimek.demo.restApi.services;
 
 
+import com.klimek.demo.restApi.dto.GenderDTO;
+import com.klimek.demo.restApi.dto.TokenDTO;
+import com.klimek.demo.restApi.entities.Token;
+import com.klimek.demo.restApi.repositories.TokenRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 class ServiceIntegrationTest {

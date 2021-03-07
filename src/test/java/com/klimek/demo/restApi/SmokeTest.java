@@ -1,5 +1,7 @@
 package com.klimek.demo.restApi;
 
+import com.klimek.demo.restApi.controllers.GenderController;
+import com.klimek.demo.restApi.repositories.TokenRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
