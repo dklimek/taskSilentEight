@@ -1,6 +1,7 @@
 package com.klimek.demo.restApi.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.klimek.demo.restApi.repositories.TokenRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
